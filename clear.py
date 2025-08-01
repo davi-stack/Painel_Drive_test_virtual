@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-def limpar_csv_zerados(arquivo_entrada='teste.csv', arquivo_saida='saida.csv'):
+def limpar_csv_zerados(arquivo_entrada='network_data.csv', arquivo_saida='saida.csv'):
     if not os.path.exists(arquivo_entrada):
         print(f"❌ Arquivo de entrada '{arquivo_entrada}' não encontrado.")
         return
