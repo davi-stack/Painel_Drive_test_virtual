@@ -1,0 +1,50 @@
+# Diretórios e arquivos gerados pelo Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente virtual
+venv/
+env/
+.venv/
+
+# Arquivos de configuração sensíveis
+.env
+*.env
+secrets.py
+
+# Arquivos de banco de dados e cache
+*.db
+*.sqlite
+*.cache
+
+# Arquivos de desenvolvimento (IDE/Editor)
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Arquivos gerados pelo Flask/Servidor
+instance/
+.webassets-cache
+
+# Arquivos de log
+*.log
+logs/
+
+# Arquivos temporários e de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de saída/geração (se não forem parte do repositório)
+/mapa_rsrp.html
+/mapa_rsrq.html
+/resumo_temporal.html
+
+# Arquivos de dados/CSV temporários (se aplicável)
+*.csv
+*.xlsx
+*.json
+
+# Pasta de testes (se houver)
+/testes/
